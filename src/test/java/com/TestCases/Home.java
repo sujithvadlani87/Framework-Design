@@ -24,7 +24,7 @@ public class Home extends GenericFunctions{
 	public static void TC07(){
 		System.out.println("TC07 executed");
 		System.out.println(getCrrntTestData("Password", 1));
-		System.out.println(getCrrntTestData("Password", 2));
+		//System.out.println(getCrrntTestData("Password", 2));
 	}
 	
 	@Test(groups={"smoke","p4","p3"})
