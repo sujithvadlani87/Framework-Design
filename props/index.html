@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap-multiselect.css" type="text/css">
+        <script type="text/javascript" src="js/bootstrap-multiselect.js"></script>
+
+<style>
+.multiselect-container {min-width:300px;}
+.btn{min-width:300px;}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#multi-select-demo1').multiselect();
+		$('#multi-select-demo2').multiselect();
+		$('#multi-select-demo3').multiselect();
+		$('#multi-select-demo4').multiselect();
+    });
+</script>
+<div class="row" style="margin-top:100px;">
+<div class="col-md-2"></div>
+<div class="col-md-8 col-md-offset-2 text-align-center">
+
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-5">
+  <label for="environmentSelect">Select Environment</label>
+  <select class="form-control" id="sel1">
+    <option value="QA">QA</option>
+    <option value="produ">Production</option>  
+  </select>
+  </div>
+</div>
+</div>
+</br>
+
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-5">
+  <label for="browserSelect">Select Browser</label>
+  <select class="form-control" id="sel1">
+    <option>IE</option>
+    <option>Chrome</option>
+    <option>Firefox</option>
+    <option>Opera</option>
+  </select>
+</div>
+</div>
+</div>
+</br>
+
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-5">
+<label for="browserSelect">Select Test Type</label>
+<select id="multi-select-demo1" multiple="multiple">
+    <option value="AllTestType">All</option>
+    <option value="smokeTest">Smoke test</option>
+    <option value="batTest">BAT</option>
+    <option value="sanityTest">Sanity</option>
+</select>
+
+</div>
+</div>
+</div>
+</br>
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-5">
+<label for="browserSelect">Select Test Priority</label>
+<select id="multi-select-demo2" multiple="multiple">
+
+    <option value="allPriority">All</option>
+    <option value="p1">P1</option>
+    <option value="p2">P2</option>
+	<option value="p3">P3</option>
+	<option value="p4">P4</option>
+</select>
+</div>
+</div>
+</div>
+</br>
+
+<div class="row">
+<div class="form-group">
+<div class="col-md-5">
+<label for="browserSelect">Select Modules</label>
+<select multiple id="multi-select-demo3" multiple="multiple">
+    <option value="AllModules">All</option>
+    <option value="Bootstrap">Home</option>
+    <option value="HTML">Login</option>
+    <option value="CSS">Registration</option>
+</select>
+</div>
+</div>
+</div>
+</br>
+
+<button class="btn btn-primary" id="submit">Submit</button>
+
+</div>
+</div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+in this you could run any combination of test cases depends on "TypeofTest" you want to run ex:sanity,smoke,bat etc
+along with "TestPriyority" ex:p1,p2,p3,p4 etc
+
+some of the combinations of test preferences that you can give directly on console are:
+  Environment,Browser,TestType,TestPriyority,module
+
+qa,chrome,smoke,p1,all           -runs in QA environment with chrome browser of smoke testcases which are of p1 priyority
+prod,firefox,sanity,p1&p2&p3,all -runs in production environment with firefox browser of sanity testcases which are of p1,p2&p3 priyority
+prod,ie,sanity,all,all           -runs in prod with ie browser of all sanity testcases
+qa,firefox,all,all,all           -runs in qa with firefox of all testcases irrespective of TestType and TestPriyority 
+prod,chrome,all,p1,all           -runs in prod with chrome of all p1 priyority Testcases irrespective of TestType
+qa,ie,all,p1&p2&p3,all           -runs in qa with ie of p1,p2&p3 priyority testcases irrespective of TestType
+etc
+
+if want to change the regression test preferences:
+   goto DataBase folder open TestData.xlsx file, goto commonTestData sheet and change the row regressionPreferences
+  
+if want to add another environment
+   goto TestData.xlsx file, goto TestCredentials sheet and add environment name under Environment column, url under Url, UserName under Username and if any other preferences you can add a column
+   
+all the skipped and failed tests listed in Results sheet are actually failed and skipped during runtime which you dont have to clear after rerunning them, framework takes care of that its just for the glance.
+
+if you want to add another module that has to be tested for regression follow the directions given below:
+    -add a class under com.PageObjects package named as moduleNameObject.java where you can write page related verifications and functions.
+    -add a class under com.TestCases package named as moduleName.java where you can write all testCases that are there in that module
+     for every @test testCase mention groups which contain -under which are all the TestTypes(ex:sanity,smoke etc) and 
+     which are all the testPriyorities (ex:p1,p2,p3,all etc) that you want to run that particular testCase.
+     (note: never mention all for TestType if you want to run it for all testTypes, kindly mention all type of tests names and for testPriyority you can mention all)
+    -goto TestData.xlsx file create a sheet with a name of moduleName and create TestCase and Iteration columns and any field column that you want to get data from
+     every TestCase name in that TestCase column must be the particular test method name to which it gives the data so that you could use "getCrrntTestData(Column,Iteration)"
+     method very effectively to fetch the relevant data for that particular test method. 
+     
+     NOTE: please mention All for module in userInput

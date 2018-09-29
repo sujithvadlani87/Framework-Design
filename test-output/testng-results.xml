@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="0" ignored="0" total="11" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36429" started-at="2018-09-29T12:39:18Z" finished-at="2018-09-29T12:39:54Z">
+    <groups>
+      <group name="all">
+        <method signature="Home.TC03()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC03" class="com.TestCases.Home"/>
+        <method signature="Login.TC02()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC02" class="com.TestCases.Login"/>
+        <method signature="Login.TC10()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC10" class="com.TestCases.Login"/>
+      </group> <!-- all -->
+      <group name="p1">
+        <method signature="Home.TC04()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC04" class="com.TestCases.Home"/>
+        <method signature="Home.TC07()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC07" class="com.TestCases.Home"/>
+        <method signature="Registration.TC11()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC11" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC12()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC12" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC13()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC13" class="com.TestCases.Registration"/>
+      </group> <!-- p1 -->
+      <group name="p2">
+        <method signature="Login.TC01()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC01" class="com.TestCases.Login"/>
+        <method signature="Login.TC09()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC09" class="com.TestCases.Login"/>
+        <method signature="Registration.TC11()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC11" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC12()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC12" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC13()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC13" class="com.TestCases.Registration"/>
+      </group> <!-- p2 -->
+      <group name="p3">
+        <method signature="Home.TC04()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC04" class="com.TestCases.Home"/>
+        <method signature="Home.TC07()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC07" class="com.TestCases.Home"/>
+        <method signature="Home.TC08()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC08" class="com.TestCases.Home"/>
+      </group> <!-- p3 -->
+      <group name="bat">
+        <method signature="Home.TC07()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC07" class="com.TestCases.Home"/>
+        <method signature="Login.TC01()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC01" class="com.TestCases.Login"/>
+        <method signature="Login.TC02()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC02" class="com.TestCases.Login"/>
+        <method signature="Login.TC10()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC10" class="com.TestCases.Login"/>
+      </group> <!-- bat -->
+      <group name="p4">
+        <method signature="Home.TC08()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC08" class="com.TestCases.Home"/>
+      </group> <!-- p4 -->
+      <group name="smoke">
+        <method signature="Home.TC03()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC03" class="com.TestCases.Home"/>
+        <method signature="Home.TC08()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC08" class="com.TestCases.Home"/>
+        <method signature="Login.TC02()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC02" class="com.TestCases.Login"/>
+        <method signature="Registration.TC12()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC12" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC13()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC13" class="com.TestCases.Registration"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Home.TC04()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC04" class="com.TestCases.Home"/>
+        <method signature="Login.TC01()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC01" class="com.TestCases.Login"/>
+        <method signature="Login.TC09()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC09" class="com.TestCases.Login"/>
+        <method signature="Registration.TC11()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC11" class="com.TestCases.Registration"/>
+        <method signature="Registration.TC12()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC12" class="com.TestCases.Registration"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="36429" started-at="2018-09-29T12:39:18Z" finished-at="2018-09-29T12:39:54Z">
+      <class name="com.TestCases.Home">
+        <test-method status="SKIP" signature="TC03()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC03" duration-ms="4" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC03]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC03at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method status="PASS" signature="TC04()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC04" duration-ms="66" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="SKIP" signature="TC07()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC07" duration-ms="8" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC07]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC07at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method status="SKIP" signature="TC08()[pri:0, instance:com.TestCases.Home@604ed9f0]" name="TC08" duration-ms="5" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC08]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC08at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08 -->
+      </class> <!-- com.TestCases.Home -->
+      <class name="com.TestCases.Registration">
+        <test-method status="PASS" signature="TC11()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC11" duration-ms="15" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11 -->
+        <test-method status="PASS" signature="TC12()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC12" duration-ms="10" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12 -->
+        <test-method status="SKIP" signature="TC13()[pri:0, instance:com.TestCases.Registration@6a4f787b]" name="TC13" duration-ms="3" started-at="2018-09-29T18:09:54Z" finished-at="2018-09-29T18:09:54Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC13]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC13at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13 -->
+      </class> <!-- com.TestCases.Registration -->
+      <class name="com.TestCases.Login">
+        <test-method status="SKIP" signature="TC01()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC01" duration-ms="11" started-at="2018-09-29T18:09:53Z" finished-at="2018-09-29T18:09:53Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC01]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC01at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="SKIP" signature="TC02()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC02" duration-ms="4" started-at="2018-09-29T18:09:53Z" finished-at="2018-09-29T18:09:53Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC02]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC02at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="SKIP" signature="TC09()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC09" duration-ms="5" started-at="2018-09-29T18:09:53Z" finished-at="2018-09-29T18:09:53Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC09]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC09at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09 -->
+        <test-method status="SKIP" signature="TC10()[pri:0, instance:com.TestCases.Login@5e3a8624]" name="TC10" duration-ms="5" started-at="2018-09-29T18:09:53Z" finished-at="2018-09-29T18:09:53Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipped test=TC10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipped test=TC10at com.TestListeners.TestListeners.beforeInvocation(TestListeners.java:158)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:92)at org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithContextStrategy.callMethod(InvokedMethodListenerInvoker.java:88)at org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)at org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:486)at org.testng.internal.Invoker.invokeMethod(Invoker.java:556)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10 -->
+      </class> <!-- com.TestCases.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
